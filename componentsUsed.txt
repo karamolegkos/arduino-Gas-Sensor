@@ -1,0 +1,14 @@
+1.  1 green led
+2.  1 orangeled
+3.  1 red led
+4.  1 1kΩ resistor
+5.  1 10kΩ resistor
+6.  1 Breadboard Mini
+7.  1 Arduino Uno R3
+8.  1 Piezo buzzer
+9.  1 Gas sensor
+10. 12 black wires
+11. 5 green wires
+12. 1 orange wire
+13. 1 red wire
+14. 1 pink wire
