@@ -24,7 +24,7 @@ void loop()
 {
   sensorPin=analogRead(A0)-clear_value;	// Normalizing the values to zero
   //Serial.println(sensorPin);			// Printing values on screen
-  delay(scan_delay);					// Time till next scan
+  delay(scan_delay);				// Time till next scan
   if(sensorPin<=medium_value){			// If co2 is low then
     digitalWrite(green_led, HIGH);		// Turn on green led
     digitalWrite(orange_led, LOW);		// Turn off orange led
@@ -35,7 +35,7 @@ void loop()
     digitalWrite(orange_led, HIGH);		// Turn on orange led
     digitalWrite(red_led, LOW);			// Turn off red led
   }
-  else{									// If co2 is high then
+  else{						// If co2 is high then
   	digitalWrite(green_led, LOW);		// Turn off green led
     digitalWrite(orange_led, LOW);		// Turn off orange led
     digitalWrite(red_led, HIGH);		// Turn on red led
