@@ -15,8 +15,8 @@ void setup()
 {
   Serial.begin(data_rate);		/* Sets the data rate */
   pinMode(red_led, OUTPUT);		/* RED LED            */
-  pinMode(orange_led, OUTPUT);	  /* ORANGE LED         */
-  pinMode(green_led, OUTPUT);	  /* GREEN LED          */
+  pinMode(orange_led, OUTPUT);	    /* ORANGE LED         */
+  pinMode(green_led, OUTPUT);	    /* GREEN LED          */
   pinMode(buzzer, OUTPUT);		/* BUZZER             */
 }
 
