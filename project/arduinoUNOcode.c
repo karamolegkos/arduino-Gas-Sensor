@@ -1,11 +1,11 @@
-int sensorPin=0;				// Sensor's value initialization
-int red_led = 3;				// Red's pin number
-int orange_led = 4;				// Orange's pin number
-int green_led = 5;				// Green's pin number
-int buzzer = 10;				// Buzzer's pin number
+int sensorPin=0;			// Sensor's value initialization
+int red_led = 3;			// Red's pin number
+int orange_led = 4;			// Orange's pin number
+int green_led = 5;			// Green's pin number
+int buzzer = 10;			// Buzzer's pin number
 int clear_value = 487;			// Sensor's clear air value
 int frequency = 750;			// The frequency of the buzzer's note
-int duration = 50;				// Just a duration for the buzzer's note
+int duration = 50;			// Just a duration for the buzzer's note
 int scan_delay = duration;		// Each scan should be as long as a note
 int medium_value = 50;			// The least value for a medium scan
 int high_value = 200;			// The least value for a high scan
