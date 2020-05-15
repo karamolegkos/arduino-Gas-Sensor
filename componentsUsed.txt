@@ -12,3 +12,4 @@
 12. 1 orange wire
 13. 1 red wire
 14. 1 pink wire
+15. 1 blue wire
